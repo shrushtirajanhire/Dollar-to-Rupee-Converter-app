@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                  String s = editText.getText().toString();
                  int dol = Integer.parseInt(s);
                  double  rs= 75.42 * dol;
-                 textView.setText("The value in rupees is :  " + rs);
+                 textView.setText("The correponding value in rupees is :  " + rs);
              }
          });
     }
